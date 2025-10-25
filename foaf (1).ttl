@@ -1,0 +1,39 @@
+@base <http://raw.githubusercontent.com/Marmaduke23/watos/refs/heads/main/foaf.ttl> .
+
+@prefix jjj: <http://raw.githubusercontent.com/Marmaduke23/watos/refs/heads/main/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2025-10-20"^^xsd:date ;
+   dc:title "The JJJ's (Jiale, Joaquin y Javier) FOAF Profile"@en ;
+   foaf:primaryTopic <#jjj> ;
+   dc:creator <#jjj> .
+
+<#jjj> a foaf:Person ;
+   rdfs:label "JJJ" ;
+   rdfs:comment "Grupo de los triple J"@es , "Triple J group"@en ;
+   foaf:name "Jiale, Joaquin y Javier" ;
+   foaf:givenName "JJJ" ;
+   foaf:familyName "AAA" ;
+   foaf:age 1 ;
+   foaf:img <https://pucho-henza.com/wp-content/uploads/2024/10/jjj.001-1024x576.jpeg> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ,
+               <http://raw.githubusercontent.com/juansebm/lab10_webofdata/main/foaf.ttl#juanvale> ,
+               <http://users.dcc.uchile.cl/~pmendoza/foaf.ttl#pm> ;
+   foaf:interest dbr:Semantic_Web , dbr:Subway_(restaurant) , dbr:Sleep_paralysis ;
+   social:likesMovie dbr:The_Godfather , dbr:Aliens_(film) ;
+   social:hasSpiritAnimal dbr:South_American_tapir ;
+   social:hasFavouritePlatonicSolid dbr:Icosahedron ;
+   foaf:myersBriggs "ENTJ" .
+
+
+
+
+
