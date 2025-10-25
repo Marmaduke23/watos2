@@ -27,11 +27,14 @@
    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ,
                <http://raw.githubusercontent.com/juansebm/lab10_webofdata/main/foaf.ttl#juanvale> ,
                <http://users.dcc.uchile.cl/~pmendoza/foaf.ttl#pm> ;
-   foaf:interest dbr:Semantic_Web , dbr:Subway_(restaurant) , dbr:Sleep_paralysis ;
+   foaf:interest dbr:Semantic_Web ,
+      dbr:Subway_(restaurant) ,
+      dbr:Sleep_paralysis ;
    social:likesMovie dbr:The_Godfather , dbr:Aliens_(film) ;
    social:hasSpiritAnimal dbr:South_American_tapir ;
    social:hasFavouritePlatonicSolid dbr:Icosahedron ;
    foaf:myersBriggs "ENTJ" .
+
 
 
 
